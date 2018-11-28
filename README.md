@@ -7,4 +7,4 @@ For example, the following repositories inherit from this configuration, rather
 than maintaining their own.
 
 * `apollo-server`
-* `apollo-client`
+* `apollo-tooling`
