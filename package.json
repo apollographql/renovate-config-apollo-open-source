@@ -18,7 +18,13 @@
       "rebaseStalePrs": true,
       "prCreation": "not-pending",
       "automerge": "minor",
-      "labels": ["dependencies"]
+      "labels": ["dependencies"],
+      "packageRules": [
+        {
+          "packagePatterns": ["event-stream"],
+          "enabled": false
+        }
+      ]
     }
   }
 }
