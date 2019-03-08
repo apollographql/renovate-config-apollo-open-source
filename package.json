@@ -16,6 +16,7 @@
       "timezone": "America/Los_Angeles",
       "schedule": "every weekend",
       "rebaseStalePrs": true,
+      "updateNotScheduled": false,
       "prCreation": "not-pending",
       "automerge": "minor",
       "labels": ["dependencies"],
