@@ -14,12 +14,17 @@
       "extends": [":pinOnlyDevDependencies"],
       "semanticCommits": true,
       "timezone": "America/Los_Angeles",
-      "schedule": ["after 6pm and before 5am on every weekday"],
+      "schedule": "every weekend",
       "rebaseStalePrs": true,
+      "updateNotScheduled": false,
       "prCreation": "not-pending",
       "automerge": "minor",
       "labels": ["dependencies"],
       "packageRules": [
+        {
+          "packagePatterns": ["apollo"],
+          "schedule": "at any time"
+        },
         {
           "packageNames": ["event-stream"],
           "enabled": false
