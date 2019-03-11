@@ -22,7 +22,7 @@
       "labels": ["dependencies"],
       "packageRules": [
         {
-          "packagePatterns": ["^apollo"],
+          "packagePatterns": ["apollo"],
           "schedule": "at any time"
         },
         {
