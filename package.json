@@ -26,7 +26,7 @@
           "schedule": "at any time"
         },
         {
-          "packagePatterns": ["event-stream"],
+          "packageNames": ["event-stream"],
           "enabled": false
         }
       ]
