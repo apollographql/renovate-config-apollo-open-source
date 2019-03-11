@@ -1,6 +1,6 @@
 {
   "name": "renovate-config-apollo-open-source",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,9 @@
   "license": "MIT",
   "renovate-config": {
     "default": {
-      "extends": [":pinOnlyDevDependencies"],
+      "extends": [
+        ":pinOnlyDevDependencies"
+      ],
       "semanticCommits": true,
       "timezone": "America/Los_Angeles",
       "schedule": "every weekend",
@@ -19,14 +21,20 @@
       "updateNotScheduled": false,
       "prCreation": "not-pending",
       "automerge": "minor",
-      "labels": ["dependencies"],
+      "labels": [
+        "dependencies"
+      ],
       "packageRules": [
         {
-          "packagePatterns": ["apollo"],
+          "packagePatterns": [
+            "apollo"
+          ],
           "schedule": "at any time"
         },
         {
-          "packageNames": ["event-stream"],
+          "packageNames": [
+            "event-stream"
+          ],
           "enabled": false
         }
       ]
