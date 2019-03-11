@@ -21,7 +21,7 @@
       "labels": ["dependencies"],
       "packageRules": [
         {
-          "packagePatterns": ["event-stream"],
+          "packageNames": ["event-stream"],
           "enabled": false
         }
       ]
