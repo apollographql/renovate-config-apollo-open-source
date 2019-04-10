@@ -22,7 +22,7 @@
       "prCreation": "not-pending",
       "automerge": "minor",
       "labels": [
-        "dependencies"
+        ":christmas_tree: dependencies"
       ],
       "packageRules": [
         {
