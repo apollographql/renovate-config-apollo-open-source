@@ -8,3 +8,4 @@ than maintaining their own.
 
 * `apollo-server`
 * `apollo-tooling`
+* `apollo-client`
