@@ -20,11 +20,14 @@
       "rebaseStalePrs": true,
       "updateNotScheduled": false,
       "prCreation": "not-pending",
-      "automerge": "minor",
       "labels": [
         ":christmas_tree: dependencies"
       ],
       "packageRules": [
+        {
+          "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+          "automerge": true
+        },
         {
           "packagePatterns": [
             "apollo"
