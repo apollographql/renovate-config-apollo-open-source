@@ -1,0 +1,39 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Sets some basics for Renovate to standardize across all repos.",
+  "extends": [
+    ":pinOnlyDevDependencies"  // Dev dependencies (e.g., for tests) are pinned, everything else uses ranges
+  ],
+  "semanticCommits": "enabled",
+  "timezone": "America/Los_Angeles",
+  "schedule": "every weekend",
+  "rebaseStalePrs": true,
+  "updateNotScheduled": false,
+  "prCreation": "not-pending",
+  "labels": [
+    ":christmas_tree: dependencies"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "automerge": true
+    },
+    {
+      "packagePatterns": [
+        "apollo"
+      ],
+      "schedule": "at any time"
+    },
+    {
+      "packageNames": [
+        "event-stream"
+      ],
+      "enabled": false
+    }
+  ]
+}
