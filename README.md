@@ -17,7 +17,7 @@ To use this configuration, add the following to your `renovate.json` file:
 ```json
 {
   "extends": [
-    "github>apollographql/renovate-config-apollo-open-source"
+    "github>apollographql/renovate-config-apollo-open-source:default.json5"
   ]
 }
 ```
