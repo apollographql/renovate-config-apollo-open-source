@@ -28,9 +28,7 @@
     {
       "groupName": "all apollo dependencies",
       "groupSlug": "apollo"
-      "packagePatterns": [
-        "apollo"
-      ],
+      "matchPackagePatterns": ["^@apollo/"],
       "schedule": "at any time",
     }
   ]
